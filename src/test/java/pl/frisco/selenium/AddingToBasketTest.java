@@ -6,7 +6,6 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -16,13 +15,11 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class AddingToBasketTest {
     ChromeDriver chromeDriver;
-    Actions actions;
     @Before
     public void browserPreparation() {
         System.setProperty("webdriver.chrome.driver", "C:/DRIVERS/chromedriver.exe");
         chromeDriver = new ChromeDriver();
         chromeDriver.manage().window().maximize();
-        actions = new Actions(chromeDriver);
     }
 
     @After
