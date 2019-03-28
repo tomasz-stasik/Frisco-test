@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="" name="" >
+<node_order><![CDATA[]]></node_order>
+<details><![CDATA[]]></details> 
+<testsuite id="97" name="Adding product to the basket." >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="98" name="A test enter the number -1 in place of the quantity of the product and adding it to the basket.">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[1]]></externalid>
+	<fullexternalid><![CDATA[TFRISCO-1]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>The goal of the test is checking if during of adding of the quantity can enter angry number and how the app will be behave. In this case, it will be an attempt to enter a negative number -1.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>As a logged in user of the website https://www.frisco.pl/, go to page product.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Add to cart&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Choose the delivery place&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Warsaw&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Thank you for providing postcode&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;I understand&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>You have redirected to the product entry form.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>In the place of the quantity, enter the value -1.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>When you try to enter -1, a message appears &bdquo;Product removed from a cart&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on the shopping cart icon.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The shopping cart does not display any product.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[Final actions]]></name>
+			<value><![CDATA[Clear a cart and log out.]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="105" name="A test enter the number 0 in place of the quantity of the product and adding it to the basket.">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[2]]></externalid>
+	<fullexternalid><![CDATA[TFRISCO-2]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>The goal of the test is checking if during of adding of the quantity can enter number 0.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>As a logged in user of the website https://www.frisco.pl/, go to page product.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Add to cart&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Choose the delivery place&rdquo;.<br />
+&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Warsaw&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Thank you for providing postcode&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;I understand&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>You have redirected to the product entry form.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>In the place of the quantity, enter the value 0.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>When you try to enter 0, a message appears &bdquo;Product removed from a cart&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on the shopping cart icon.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The shopping cart does not display any product.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[Final actions]]></name>
+			<value><![CDATA[Clear a cart and log out.]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="112" name="A test enter the number 1 in place of the quantity of the product and adding it to the basket.">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[3]]></externalid>
+	<fullexternalid><![CDATA[TFRISCO-3]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>The goal of the test is checking if during of adding of the quantity can enter number 1.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>As a logged in user of the website https://www.frisco.pl/, go to page product.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Add to cart&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Choose the delivery place&rdquo;.<br />
+&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Warsaw&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Thank you for providing postcode&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;I understand&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>You have redirected to the product entry form.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>In the place of the quantity, enter the value 1.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Changed to 1 at the cart icon.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on the shopping cart icon.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The basket displays the added product on the list in the amount of 1.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[Final actions]]></name>
+			<value><![CDATA[Clear a cart and log out.]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="119" name="A test enter the number 500 in place of the quantity of the product and adding it to the basket.">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[4]]></externalid>
+	<fullexternalid><![CDATA[TFRISCO-4]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>The goal of the test is checking if during of adding of the quantity can enter number 500.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>As a logged in user of the website https://www.frisco.pl/, go to page product.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Add to cart&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Choose the delivery place&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Warsaw&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Thank you for providing postcode&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;I understand&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>You have redirected to the product entry form.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>In the place of the quantity, enter the value 500.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Changed to 500 at the cart icon.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on the shopping cart icon.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The basket displays the added product on the list in the amount of 500.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[Final actions]]></name>
+			<value><![CDATA[Clear a cart and log out.]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="126" name="A test enter the number 998 in place of the quantity of the product and adding it to the basket.">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[5]]></externalid>
+	<fullexternalid><![CDATA[TFRISCO-5]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>The goal of the test is checking if during of adding of the quantity can enter number 998.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>As a logged in user of the website https://www.frisco.pl/, go to page product.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Add to cart&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Choose the delivery place&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Warsaw&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Thank you for providing postcode&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;I understand&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>You have redirected to the product entry form.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>In the place of the quantity, enter the value 998.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Changed to 998 at the cart icon.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on the shopping cart icon.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The basket displays the added product on the list in the amount of 998.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[Final actions]]></name>
+			<value><![CDATA[Clear a cart and log out.]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="133" name="A test enter the number 999 in place of the quantity of the product and adding it to the basket.">
+	<node_order><![CDATA[1005]]></node_order>
+	<externalid><![CDATA[6]]></externalid>
+	<fullexternalid><![CDATA[TFRISCO-6]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>The goal of the test is checking if during of adding of the quantity can enter number 999.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>As a logged in user of the website https://www.frisco.pl/, go to page product.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Add to cart&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Choose the delivery place&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Warsaw&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Thank you for providing postcode&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;I understand&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>You have redirected to the product entry form.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>In the place of the quantity, enter the value 999.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Changed to 999 at the cart icon.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on the shopping cart icon.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The basket displays the added product on the list in the amount of 999.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[Final actions]]></name>
+			<value><![CDATA[Clear a cart and log out.]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="140" name="A test enter the number 1000 in place of the quantity of the product and adding it to the basket.">
+	<node_order><![CDATA[1006]]></node_order>
+	<externalid><![CDATA[7]]></externalid>
+	<fullexternalid><![CDATA[TFRISCO-7]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>A test enter the number 1000 in place of the quantity of the product and adding it to the basket.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>A test enter the number 1000 in place of the quantity of the product and adding it to the basket.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Add to cart&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Choose the delivery place&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Warsaw&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Thank you for providing postcode&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;I understand&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>You have redirected to the product entry form.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>In the place of the quantity, enter the value 1000.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Changed to 1 at the cart icon.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on the shopping cart icon.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The basket displays the added product on the list in the amount of 1.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[Final actions]]></name>
+			<value><![CDATA[Clear a cart and log out.]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="147" name="A test enter the number 2,6 in place of the quantity of the product and adding it to the basket.">
+	<node_order><![CDATA[1007]]></node_order>
+	<externalid><![CDATA[8]]></externalid>
+	<fullexternalid><![CDATA[TFRISCO-8]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>The goal of the test is checking if during of adding of the quantity can enter floating point number 2,6.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>As a logged in user of the website https://www.frisco.pl/, go to page product.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Add to cart&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Choose the delivery place&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Warsaw&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Thank you for providing postcode&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;I understand&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>You have redirected to the product entry form.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>In the place of the quantity, enter the value 2,6.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>When you try to enter 2,6; a message appears &bdquo;Product removed from a cart&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on the shopping cart icon.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The shopping cart does not display any product.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[Final actions]]></name>
+			<value><![CDATA[Clear a cart and log out.]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="154" name="A test enter text in place of the quantity of the product and adding it to the basket.">
+	<node_order><![CDATA[1008]]></node_order>
+	<externalid><![CDATA[9]]></externalid>
+	<fullexternalid><![CDATA[TFRISCO-9]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>The goal of the test is checking if during of adding of the quantity can enter text.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>As a logged in user of the website https://www.frisco.pl/, go to page product.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Add to cart&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Choose the delivery place&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Warsaw&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Thank you for providing postcode&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;I understand&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>You have redirected to the product entry form.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>In the place of the quantity, enter text.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>When you try to enter text abc, a message appears &bdquo;Product removed from a cart&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on the shopping cart icon.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The shopping cart does not display any product.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[Final actions]]></name>
+			<value><![CDATA[Clear a cart and log out.]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="161" name="A test enter white sign(space) in place of the quantity of the product and adding it to the basket.">
+	<node_order><![CDATA[1009]]></node_order>
+	<externalid><![CDATA[10]]></externalid>
+	<fullexternalid><![CDATA[TFRISCO-10]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>The goal of the test is checking if during of adding of the quantity can enter white sign.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>As a logged in user of the website https://www.frisco.pl/, go to page product.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Add to cart&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Choose the delivery place&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;Warsaw&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The meesage is displayed &bdquo;Thank you for providing postcode&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Press buton &bdquo;I understand&rdquo;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>You have redirected to the product entry form.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>In the place of the quantity, enter space.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>When you try to enter space, a message appears &bdquo;Product removed from a cart&rdquo;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on the shopping cart icon.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The shopping cart does not display any product.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[Final actions]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+</testsuite></testsuite>
